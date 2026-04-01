@@ -1,0 +1,133 @@
+=== PARAGRAPHS ===
+Adalbert NANDA TONLIO			          Ingénieur de Production & DevOps Senior
+13 Rue Nélaton, 92800 Puteaux			                      9 années d’expérience – Disponibilité Immédiate
+Port. : +33 (0)6 95 39 94 04
+Email : adal89nanda@gmail.com
+Permis B, Véhiculé
+PROFIL
+Ingénieur DevOps et Ingénieur de Production avec 9 ans d'expérience dans l'automatisation des déploiements, la conteneurisation, le CI/CD et l'exploitation de systèmes critiques. Expert en industrialisation des environnements, Infrastructure as Code (Terraform, Ansible), pipelines Jenkins/GitLab CI, et supervision (ELK, Grafana, Prometheus). Expérience confirmée en gestion d'incidents N2/N3, MCO applicatif, et amélioration continue dans des contextes bancaires et industriels exigeants.
+Compétences clés
+CI/CD & Automatisation
+Pipelines CI/CD: Jenkins (multibranch, freestyle), GitLab CI/CD,Github Actions, ArgoCD/Rollout 
+Automatisation des déploiements : Ansible (playbooks, rôles,Tower/AWX), scripts Bash/Python
+Infrastructure as Code : Terraform (modules,workspaces, state mangement), Ansible, provisionnement automatisé multi-environnements
+Qualité de code : SonarQube/SonarCloud, tests automatisés, code review
+Conteneurisation & Orchestration
+Docker : Dockerfile, multi-stage builds, Docker Compose, registries privés
+Kubernetes : Déploiement, configuration, gestion de pods et services
+Orchestration : Docker Swarm, gestion de clusters
+Cloud & Systèmes
+Cloud : AWS (EC2, S3, CloudWatch, Lambda, ECS/EKS, RDS, VPC, IAM, CloudFormation) déploiements multi-régions
+Linux : Red Hat, Ubuntu, CentOS, Debian (administration système avancée)
+Scripting : Bash, Python, PowerShell (automatisation, exploitation)
+Monitoring, Observabilité & Sécurité
+Stack Monitoring : Prometheus (métriques, alerting), Grafana (dashboards, visualisation), Dynatrace, configuration d'alertes et seuils, métriques métier
+Logging : ELK Stack (Elasticsearch, Logstash, Kibana), analyse et corrélation, Filebeat
+DevSecOps : Scans de sécurité (SonarQube), gestion des secrets (Vault, CyberArk), sécurisation des pipelines CI/CD
+Développement & Intégration
+Middleware : TIBCO BusinessWorks, ESB
+Bases de données : Oracle, SQL Server, PostgreSQL, requêtage et optimisation
+Bases de Données, Middleware & Outils
+Bases de données : PostgreSQL, Oracle, SQL Server, MongoDB, MySQL, Redis, optimisation de requêtes, administration
+Middleware: TIBCO BusinessWorks (ESB, intégration), axway MFT Gateway (message broker), IBM MQ
+Versionning: Git (GitFlow, trunk-based), GitHub, GitLab, Bitbucket, code review, merge strategies
+Outils: Jira, Confluence, ServiceNow (ITIL), Slack, load balancers (NGINX, HAProxy)
+Méthodologies & Pratiques
+DevOps : Culture DevOps, collaboration Dev/Ops, amélioration continue, automation-first mindset
+Agile/Scrum : Sprints, dailies, retrospectives, backlog management, user stories
+ITIL : Gestion des incidents (N2/N3), changements, problèmes, RCA (Root Cause Analysis), post-mortems
+SRE : Fiabilité, disponibilité, scalabilité, gestion des SLA/SLO, error budgets
+Contexte et Objectifs : Au sein de l’entité CIB, prise en charge du maintien en conditions opérationnelles (MCO) et de la fiabilisation des applications ITL, CAMPS et PIXEL en production.
+La mission consiste à améliorer la stabilité, la performance et la disponibilité des plateformes, en s’appuyant sur des pratiques DevOps, une automatisation progressive et une collaboration étroite entre équipes métiers, IT et prestataires.
+Prestations effectuées
+Recueil et analyse des besoins métier liés aux applications critiques ITL (Integration Transform Layer) et CAMPS (Customer Account Management Payments & Services)
+Maintien en conditions opérationnelles (MCO) des applications en préproduction et production, dans des environnements à forte exigence de disponibilité
+Analyse fonctionnelle et technique des anomalies de production, identification des causes racines (RCA) et proposition de correctifs et améliorations durables
+Suivi quotidien de la production via la supervision transverse, analyse des erreurs et anticipation des incidents
+Gestion des incidents critiques et animation de cellules de crise, avec coordination des équipes métiers, IT et prestataires
+Déploiement de patchs et releases applicatives via des jobs Ansible, dans une démarche d’automatisation et de fiabilisation des mises en production
+Rédaction et suivi des tickets JIRA et ServiceNow (Incidents, Changes, RITM) pour le pilotage des anomalies et des évolutions
+Production de reportings quotidiens auprès des métiers (état de la production, incidents, risques)
+Rédaction et maintenance de la documentation d’exploitation : procédures, guides, consignes et runbooks
+Participation aux comités projets, rétrospectives et post-mortems, avec définition et suivi des plans d’actions d’amélioration continue
+Rédaction et suivi des user stories pour les évolutions applicatives, en lien avec les équipes de développement
+Interface entre les différents acteurs internes et prestataires, garantissant la fluidité de la communication et la qualité des livrables
+Support N2 / N3 et assistance aux équipes de support N1 localisées en Inde, Singapour et Moyen-Orient
+Résultats :
+Réduction significative des incidents récurrents grâce à l’automatisation des contrôles de production (scripts de supervision, Ansible), améliorant la stabilité et la disponibilité des applications
+Amélioration du respect des SLA par la mise en place d’un suivi de production quotidien, de reportings métiers structurés et de post-mortems (RCA) réguliers
+Mise en production réussie d’une application de paiement instantané critique, avec suivi opérationnel renforcé, supervision proactive et accompagnement post-déploiement
+Déploiement rapide et sécurisé de correctifs urgents (Emergency Changes), permettant de réduire le MTTR et de limiter l’impact utilisateur en environnement de production critique
+Contexte et Objectifs : Supervision et MCO d’une plateforme d’échange de données critique, avec automatisation, optimisation de la performance et de la disponibilité, gestion des incidents N2/N3 et coordination des équipes dans le respect des SLA.
+Prestations effectuées :
+Maintien en conditions opérationnelles (MCO) et fiabilisation d’une plateforme d’échange de données critique, en environnements préproduction et production
+Mise en œuvre de pratiques DevOps visant à améliorer la disponibilité, la résilience et la scalabilité des services
+Automatisation des opérations de production (scripts Bash/Python, Ansible) afin de réduire les interventions manuelles et les incidents récurrents
+Contribution à l’industrialisation des déploiements et des correctifs applicatifs (pipelines CI/CD, releases, emergency changes)
+Implémentation de stratégies de déploiement progressif (Canary via Argo Rollouts) pour réduire le risque de régression en production, avec rollback automatique basé sur les métriques Prometheus — et maîtrise de l'approche Blue/Green pour les déploiements critiques nécessitant une bascule instantanée sans interruption de service
+Déploiement d'une stack d'observabilité complète (Elasticsearch, Logstash, Kibana, Keptn) avec collecte automatisée des métriques DORA (Deployment Frequency, MTTR, Change Failure Rate), en lien direct avec le suivi des SLA et KPI de production
+Supervision proactive des composants applicatifs et d’infrastructure via ELK, mise en place d’alerting et analyse des logs
+Analyse des incidents N2/N3, réalisation de post-mortems (RCA) et définition d’actions correctives et préventives
+Participation à l’amélioration continue des workflows DevOps (build, deploy, monitor, feedback)
+Résultats :
+Amélioration de la gestion des incidents et du respect des SLA via pilotage de la production et suivi des KPI
+Réduction du risque de régression en production grâce aux déploiements Canary avec rollback automatique, aligné avec les objectifs MCO de la mission 
+Objectivation de la performance DevOps via les métriques DORA (MTTR mesuré, Change Failure Rate tracé), renforçant le pilotage par les données des indicateurs de production
+Contexte et Objectifs : Contribuer au MCO et à l’industrialisation des environnements de production dans le cadre des projets de migration MDM, ERP et BI, en mettant en œuvre des pratiques DevOps (automatisation, CI/CD, Infrastructure as Code).
+L’objectif est d’améliorer la fiabilité, la performance et la rapidité des déploiements, tout en garantissant le respect des SLA et en accompagnant la transformation digitale.
+Prestations effectuées :
+Assurer la stabilité, la performance et la disponibilité des environnements de production, tout en contribuant à la transformation DevOps et à l’amélioration continue des plateformes applicatives et data.
+Supervision et exploitation de la production
+Analyse quotidienne des incidents et anomalies via la supervision transverse
+Gestion proactive des incidents de production (RUN), identification des causes racines (RCA)
+Rejeu des flux et messages en erreur, coordination avec les équipes applicatives
+Rédaction et suivi des tickets JIRA et ServiceNow (SNOW)
+Support N2 / N3, respect des SLA, amélioration de la qualité de service
+Maintenance, fiabilité et évolution des plateformes
+Maintenance évolutive et corrective de la plateforme d’échange de données
+Contribution à l’industrialisation des traitements, à la fiabilisation des flux et à l’automatisation
+Proposition de solutions techniques répondant aux enjeux d’agilité du SI, de scalabilité, de sécurité et de gouvernance des données
+Participation aux projets de migration applicative et data dans une logique DevOps
+Approche DevOps & qualité
+Mise en œuvre et suivi des tests automatisés et manuels : unitaires, intégration, fonctionnels, performance et sécurité
+Contribution aux processus CI/CD, gestion des mises en production et des phases de recette
+Amélioration continue des processus RUN/BUILD, collaboration étroite avec les équipes métiers et techniques
+Migration et modernisation BI (SAP BO → Power BI)
+Analyse des univers SAP Business Objects (modèles, jointures, cardinalités, KPI)
+Migration vers Power BI via SSAS tabulaire et multidimensionnel (SSDT)
+Conception de modèles de données, transformations Power Query, mesures DAX
+Définition des KPI, règles de gestion, filtres et sources de données (SQL, DWH, API, Excel)
+Mise en place de la sécurité des données (RLS) et contrôle de la performance
+Recette, coordination et pilotage
+Organisation et pilotage des recettes transverses et UAT
+Planification et suivi des phases de test
+Animation des réunions de synchronisation inter-équipes
+Suivi post-mise en production et gestion des anomalies sur les rapports publiés
+Résultats :
+Mise en production, exploitation et supervision de rapports BI (Power BI, SAP BO) avec suivi de la disponibilité, des performances et des SLA
+Industrialisation et automatisation des flux de données (TIBCO), réduisant les temps de traitement de 20 % et améliorant la fiabilité de la production
+Contribution à la stabilité et à l’optimisation des environnements de production data et applicatifs (RUN / MCO)
+Amélioration continue de la qualité de service, réduction des incidents et sécurisation des mises en production
+Contexte et Objectifs : Exploitation, maintenance évolutive et corrective des interfaces du SI mondial Adecco, sécurisation et supervision des flux de données internationaux, amélioration continue du RUN (MCO), automatisation des traitements, gestion des incidents et support N2/N3 en lien avec les équipes métiers et techniques.
+Prestations effectuées :
+Analyse et cadrage technique : Recueil et analyse des besoins fonctionnels métier, définition des solutions techniques et rédaction des spécifications techniques détaillées en collaboration avec les équipes SI 
+Développement et intégration : Chiffrage, développement et intégration des flux de données middleware (TIBCO BusinessWorks, ESB), développement de nouvelles fonctionnalités applicatives avec mise en place des pipelines CI/CD 
+Automatisation des déploiements : Déploiement automatisé et versionné des artefacts (EAR, Docker images) sur environnements multi-tiers (DEV, INT, UAT, PROD) via Jenkins/GitLab CI et scripts d'orchestration 
+Qualité et validation : Mise en œuvre et pilotage des campagnes de tests fonctionnels et techniques, recette applicative, tests de non-régression et validation des déploiements 
+Gestion des incidents et problèmes : Support niveau 2/3, analyse et résolution des incidents de production, gestion et priorisation des anomalies selon ITIL, root cause analysis 
+Supervision et run : Monitoring proactif des flux et applications critiques (Nagios, Prometheus, Grafana), suivi du run quotidien, garantie des SLA, astreintes de production 
+MCO et amélioration continue : Maintenance corrective et évolutive des applications, optimisation des performances, documentation technique, capitalisation des connaissances et transfert de compétences 
+Infrastructure as Code : Gestion de l'infrastructure avec Terraform, Ansible, provisionnement et configuration automatisés des environnements cloud (AWS)
+Résultats :
+Intégration & Automatisation : Déploiement de nouveaux flux middleware (TIBCO BW) avec pipelines CI/CD, amélioration de la fiabilité des échanges inter-applications (+20% de taux de succès)
+Réduction des incidents : Diminution de 15% des anomalies P1/P2 grâce à l'implémentation de tests automatisés, maintenance proactive et amélioration continue (ITIL)
+Knowledge Management : Création et maintien de documentation technique (runbooks, procédures d'exploitation), transfert de compétences et formation équipes N2/N3
+Doctorat : Capteurs, 01/2012 - 09/2016 - Ecole Doctorale SPIGA - Nantes 
+Master 2 : Sciences technologie mention Acoustique Mécanique, 10/2011 - 05/2012 
+Université du Maine Le Mans France 
+Français : Courant 
+Anglais : Technique
+Football : 11 ans en club
+Activité associative : Bénévole (banque Alimentaire, secours populaire)
+
+=== TABLES ===
