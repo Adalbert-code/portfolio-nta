@@ -503,82 +503,289 @@
   <section class="section" id="certifications">
     <div class="page-header">
       <h2 class="page-title">Certifications &amp; Badges</h2>
-      <p class="page-desc">Reconnaissances officielles de compétences techniques</p>
+      <p class="page-desc">Reconnaissances officielles et parcours de compétences techniques</p>
     </div>
 
+    <!-- Stats bar -->
+    <div class="cert-stats">
+      <div class="cert-stat">
+        <span class="cert-stat-num">2</span>
+        <span class="cert-stat-label">Certifications Officielles</span>
+      </div>
+      <div class="cert-stat-divider"></div>
+      <div class="cert-stat">
+        <span class="cert-stat-num">6</span>
+        <span class="cert-stat-label">Bootcamps Complétés</span>
+      </div>
+      <div class="cert-stat-divider"></div>
+      <div class="cert-stat">
+        <span class="cert-stat-num">9+</span>
+        <span class="cert-stat-label">Ans d'Expérience</span>
+      </div>
+    </div>
+
+    <!-- Official Certifications -->
+    <h3 class="cert-section-title">
+      <span class="cert-section-icon">🏆</span> Certifications Officielles
+    </h3>
+    <div class="certs-grid certs-grid-official">
+
+      <!-- HashiCorp Terraform -->
+      <div class="cert-badge-card cert-official">
+        <div class="cert-ribbon cert-ribbon-green">Obtenu</div>
+        <div class="cert-badge-visual cert-badge-visual-terraform">
+          <div class="cert-badge-glow"></div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+            alt="HashiCorp Terraform" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
+        </div>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">HashiCorp</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2024</span>
+          </div>
+          <h3 class="cert-badge-title">Terraform Associate</h3>
+          <p class="cert-badge-subtitle">003 – Infrastructure as Code</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">IaC</span>
+            <span class="cert-skill-tag">Cloud</span>
+            <span class="cert-skill-tag">Modules</span>
+            <span class="cert-skill-tag">State</span>
+          </div>
+          <a href="https://www.credly.com" target="_blank" class="cert-verify-btn">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Vérifier le badge
+          </a>
+        </div>
+      </div>
+
+      <!-- Fortinet Certified Fundamentals -->
+      <div class="cert-badge-card cert-official">
+        <div class="cert-ribbon cert-ribbon-green">Obtenu</div>
+        <div class="cert-badge-visual cert-badge-visual-fortinet">
+          <div class="cert-badge-glow"></div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Fortinet_logo.svg"
+            alt="Fortinet" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
+        </div>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">Fortinet</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">Mai 2026</span>
+          </div>
+          <h3 class="cert-badge-title">FCF – Cybersecurity</h3>
+          <p class="cert-badge-subtitle">Fortinet Certified Fundamentals in Cybersecurity</p>
+          <div class="cert-fcf-courses">
+            <div class="cert-fcf-course">
+              <span class="cert-fcf-check">✓</span>
+              <span>Getting Started in Cybersecurity 3.0</span>
+            </div>
+            <div class="cert-fcf-course">
+              <span class="cert-fcf-check">✓</span>
+              <span>Introduction to the Threat Landscape 3.0</span>
+            </div>
+          </div>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">Cybersécurité</span>
+            <span class="cert-skill-tag">Threat Landscape</span>
+            <span class="cert-skill-tag">Firewall</span>
+            <span class="cert-skill-tag">FortiGate</span>
+          </div>
+          <a href="Fortinet Certified Fundamentals in Cybersecurity.pdf" target="_blank" class="cert-verify-btn">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Voir le certificat PDF
+          </a>
+        </div>
+      </div>
+
+      <!-- CKA placeholder -->
+      <div class="cert-badge-card cert-inprogress">
+        <div class="cert-ribbon cert-ribbon-orange">En cours</div>
+        <div class="cert-badge-visual cert-badge-visual-k8s">
+          <div class="cert-badge-glow"></div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+            alt="CKA" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
+        </div>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">CNCF / Linux Foundation</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2025</span>
+          </div>
+          <h3 class="cert-badge-title">CKA</h3>
+          <p class="cert-badge-subtitle">Certified Kubernetes Administrator</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">Kubernetes</span>
+            <span class="cert-skill-tag">RBAC</span>
+            <span class="cert-skill-tag">Networking</span>
+          </div>
+          <div class="cert-progress-bar">
+            <div class="cert-progress-fill" style="width: 75%"></div>
+          </div>
+          <span class="cert-progress-label">Préparation en cours – 75%</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- EazyTraining Bootcamps -->
+    <h3 class="cert-section-title" style="margin-top: 40px">
+      <span class="cert-section-icon">🎓</span> Parcours EazyTraining – Bootcamps
+    </h3>
     <div class="certs-grid">
 
-      <div class="cert-card">
-        <div class="cert-logo">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
-            alt="Terraform" />
-        </div>
-        <div class="cert-info">
-          <h3>HashiCorp Terraform Associate</h3>
-          <p class="cert-issuer">HashiCorp</p>
-          <span class="cert-badge green">Infrastructure as Code</span>
-        </div>
-      </div>
-
-      <div class="cert-card">
-        <div class="cert-logo">
+      <div class="cert-badge-card">
+        <div class="cert-ribbon cert-ribbon-blue">Complété</div>
+        <div class="cert-badge-visual cert-badge-visual-k8s">
+          <div class="cert-badge-glow"></div>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
-            alt="Kubernetes" />
+            alt="Kubernetes" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
         </div>
-        <div class="cert-info">
-          <h3>Kubernetes – Bootcamp EazyTraining</h3>
-          <p class="cert-issuer">EazyTraining</p>
-          <span class="cert-badge blue">Orchestration</span>
-        </div>
-      </div>
-
-      <div class="cert-card">
-        <div class="cert-logo">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" />
-        </div>
-        <div class="cert-info">
-          <h3>Jenkins CI/CD – EazyTraining</h3>
-          <p class="cert-issuer">EazyTraining</p>
-          <span class="cert-badge orange">CI/CD</span>
-        </div>
-      </div>
-
-      <div class="cert-card">
-        <div class="cert-logo">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" alt="Docker" />
-        </div>
-        <div class="cert-info">
-          <h3>Docker – Conteneurisation</h3>
-          <p class="cert-issuer">EazyTraining</p>
-          <span class="cert-badge blue">Containers</span>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">EazyTraining</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2025</span>
+          </div>
+          <h3 class="cert-badge-title">Platform Engineer</h3>
+          <p class="cert-badge-subtitle">Kubernetes Bootcamp – Niveau Expert</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">Kubernetes</span>
+            <span class="cert-skill-tag">Helm</span>
+            <span class="cert-skill-tag">ArgoCD</span>
+            <span class="cert-skill-tag">OKD</span>
+          </div>
         </div>
       </div>
 
-      <div class="cert-card">
-        <div class="cert-logo">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="Ansible" />
+      <div class="cert-badge-card">
+        <div class="cert-ribbon cert-ribbon-orange">Complété</div>
+        <div class="cert-badge-visual cert-badge-visual-jenkins">
+          <div class="cert-badge-glow"></div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+            alt="Jenkins" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
         </div>
-        <div class="cert-info">
-          <h3>Ansible – Automatisation</h3>
-          <p class="cert-issuer">EazyTraining</p>
-          <span class="cert-badge green">Automation</span>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">EazyTraining</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2024</span>
+          </div>
+          <h3 class="cert-badge-title">Jenkins CI/CD</h3>
+          <p class="cert-badge-subtitle">Pipelines &amp; Automatisation avancée</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">Jenkins</span>
+            <span class="cert-skill-tag">Maven</span>
+            <span class="cert-skill-tag">SonarQube</span>
+          </div>
         </div>
       </div>
 
-      <div class="cert-card">
-        <div class="cert-logo">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openshift/openshift-plain.svg" alt="OpenShift" />
+      <div class="cert-badge-card">
+        <div class="cert-ribbon cert-ribbon-blue">Complété</div>
+        <div class="cert-badge-visual cert-badge-visual-docker">
+          <div class="cert-badge-glow"></div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
+            alt="Docker" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
         </div>
-        <div class="cert-info">
-          <h3>OpenShift &amp; OKD – EazyTraining</h3>
-          <p class="cert-issuer">EazyTraining / Red Hat</p>
-          <span class="cert-badge red">Platform</span>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">EazyTraining</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2023</span>
+          </div>
+          <h3 class="cert-badge-title">Docker &amp; Conteneurisation</h3>
+          <p class="cert-badge-subtitle">Images, Compose, Registries</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">Docker</span>
+            <span class="cert-skill-tag">Compose</span>
+            <span class="cert-skill-tag">Registry</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-badge-card">
+        <div class="cert-ribbon cert-ribbon-green">Complété</div>
+        <div class="cert-badge-visual cert-badge-visual-ansible">
+          <div class="cert-badge-glow"></div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+            alt="Ansible" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
+        </div>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">EazyTraining</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2023</span>
+          </div>
+          <h3 class="cert-badge-title">Ansible – Automatisation</h3>
+          <p class="cert-badge-subtitle">Playbooks, Rôles, AWX/Tower</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">Ansible</span>
+            <span class="cert-skill-tag">AWX</span>
+            <span class="cert-skill-tag">Jinja2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-badge-card">
+        <div class="cert-ribbon cert-ribbon-red">Complété</div>
+        <div class="cert-badge-visual cert-badge-visual-openshift">
+          <div class="cert-badge-glow"></div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openshift/openshift-plain.svg"
+            alt="OpenShift" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
+        </div>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">EazyTraining / Red Hat</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2024</span>
+          </div>
+          <h3 class="cert-badge-title">OpenShift &amp; OKD</h3>
+          <p class="cert-badge-subtitle">Platform Engineering sur RHOCP</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">OKD</span>
+            <span class="cert-skill-tag">SCC</span>
+            <span class="cert-skill-tag">Routes</span>
+            <span class="cert-skill-tag">S2I</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-badge-card">
+        <div class="cert-ribbon cert-ribbon-green">Complété</div>
+        <div class="cert-badge-visual cert-badge-visual-terraform">
+          <div class="cert-badge-glow"></div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+            alt="Terraform" class="cert-badge-img" />
+          <div class="cert-badge-ring"></div>
+        </div>
+        <div class="cert-badge-body">
+          <div class="cert-badge-issuer-row">
+            <span class="cert-badge-org">EazyTraining</span>
+            <span class="cert-badge-dot"></span>
+            <span class="cert-badge-year">2023</span>
+          </div>
+          <h3 class="cert-badge-title">Terraform – IaC</h3>
+          <p class="cert-badge-subtitle">AWS, Modules, Workspaces</p>
+          <div class="cert-badge-skills">
+            <span class="cert-skill-tag">Terraform</span>
+            <span class="cert-skill-tag">AWS</span>
+            <span class="cert-skill-tag">HCL</span>
+          </div>
         </div>
       </div>
 
     </div>
 
-    <p class="certs-note">* Les certifications seront mises à jour au fur et à mesure de leur obtention officielle.</p>
+    <p class="certs-note">🔒 Les certifications officielles sont en cours d'obtention. Les badges EazyTraining reflètent des bootcamps complétés avec projets réels.</p>
   </section>
 
   <script src="app.js"></script>
